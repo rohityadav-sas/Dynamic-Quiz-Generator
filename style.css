@@ -220,6 +220,10 @@
 
 
   @media screen and (min-width:300px) and (max-width:900px) {
+      .header {
+          font-size: 1.2rem;
+      }
+
       .quizContainer {
           min-height: 50%;
           min-width: 90%;
