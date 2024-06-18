@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Quiz Generator</title>
+    <link rel="shortcut icon" href="assets/quiz.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="quizContainer">
+        <div class="computerQuiz">
+            <div class="header">
+                Dynamic Quiz Generator
+                By Rohit<sup><span>&copy;</span></sup>
+                <hr>
+            </div>
+            <div id="questionText">Question</div>
+            <div class="answers">
+                <ul>
+                    <li>
+                        <input class="checked" name="options" type="radio" id="opt_a">
+                        <label class="labeloptions" for="opt_a">Option</label>
+                    </li>
+                    <li>
+                        <input class="checked" name="options" type="radio" id="opt_b">
+                        <label class="labeloptions" for="opt_b">Option</label>
+                    </li>
+                    <li>
+                        <input class="checked" name="options" type="radio" id="opt_c">
+                        <label class="labeloptions" for="opt_c">Option</label>
+                    </li>
+                    <li>
+                        <input class="checked" name="options" type="radio" id="opt_d">
+                        <label class="labeloptions" for="opt_d">Option</label>
+                    </li>
+                </ul>
+            </div>
+            <button class="computerbutton">Submit</button>
+        </div>
+        <div class="userQuiz hidden">
+            <div class="userQuestion">
+                <ul>
+                    <li>
+                        <label for="userQuestionText">Question : </label>
+                        <input placeholder="e.g Who is the father of Computer?" type="text" id="userQuestionText">
+                    </li>
+                </ul>
+            </div>
+            <div class="userAnswers">
+                <ul>
+                    <li>
+                        <label class="userlabeloptions" for="useropt_a">Option 1 &nbsp;:&nbsp; </label>
+                        <input placeholder="e.g Charles Babbage" type="text" name="userOptions" id="useropt_a">
+                    </li>
+                    <li>
+                        <label class="userlabeloptions" for="useropt_b">Option 2 :&nbsp;</label>
+                        <input placeholder="e.g Rabin Lamichhane" type="text" name="userOptions" id="useropt_b">
+                    </li>
+                    <li>
+                        <label class="userlabeloptions" for="useropt_c">Option 3 :&nbsp; </label>
+                        <input placeholder="e.g Atul Tiwari" type="text" name="userOptions" id="useropt_c">
+                    </li>
+                    <li>
+                        <label class="userlabeloptions" for="useropt_d">Option 4 :&nbsp; </label>
+                        <input placeholder="e.g Rohit Yadav" type="text" name="userOptions" id="useropt_d">
+                    </li>
+                    <li>
+                        <label for="usercorrectopt" class="userlabeloptions">&nbsp;Correct &nbsp;:&nbsp;</label>
+                        <input type="text" id="usercorrectopt" name="userOptions"
+                            placeholder="e.g Type 1 for option 1....">
+                    </li>
+                </ul>
+            </div>
+            <div class="buttons">
+                <button class="userbutton1 glow-on-hover">
+                    Next
+                </button>
+                <button class="userbutton2 glow-on-hover">
+                    Done
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
