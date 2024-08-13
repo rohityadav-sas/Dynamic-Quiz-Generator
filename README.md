@@ -1,40 +1,33 @@
 # Dynamic Quiz Generator
 
-Table of Contents
+A flexible and interactive quiz generator with customizable questions and answers. This project allows users to easily create dynamic quizzes with a user-friendly interface.
+
+## Table of Contents
 - [Preview](#preview)
-- [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
 - [Features](#features)
-- [Screenshots](#screenshots)
-- [How it Works](#how-it-works)
+- [Installation](#installation)
 - [Usage](#usage)
     - [Computer Quiz](#computer-quiz)
     - [User Quiz](#user-quiz)
-- [Contributing](#contributing)
 - [License](#license)
-- [Author](#author)
+- [Contributing](#contributing)
 
 ## Preview
 ![preview.png](./assets/preview.png?raw=true)
-
-## Technologies Used
-- HTML
-- CSS
-- JavaScript
-
-## Getting Started
-To use the Dynamic Quiz Generator, open the `index.html` file in a web browser.
 
 ## Features
 - Take quizzes with pre-defined questions and multiple-choice answers.
 - Create custom quizzes with user-defined questions and options.
 - Responsive design for a seamless user experience.
 
-## Screenshots
-Include screenshots of the quiz generator in different states or configurations if necessary.
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/rohityadav-sas/Dynamic-Quiz-Generator
+   ```
 
-## How it Works
-The quiz generator loads pre-defined questions and answers for the computer quiz. Users can answer questions, and the score is calculated based on the correct answers. Additionally, users can switch to the user quiz mode, where they can create their own quizzes with custom questions and options.
+2. Open index.html in your web browser.
 
 ## Usage
 ### Computer Quiz
@@ -46,16 +39,11 @@ The quiz generator loads pre-defined questions and answers for the computer quiz
 2. Enter your custom questions, options, and specify the correct answer.
 3. Click the "Next" button to add more questions or "Done" to finish and start the custom quiz.
 
-## Contributing
-Contributions are not applicable for this repository as it's a static quiz generator.
-
 ## License
-This project is licensed under the [MIT License](LICENSE).
 
-## Author
-- **Rohit** <sup>&copy;</sup>
+This project is licensed under the ISC License. See the [LICENSE](./LICENSE) file for details.
 
----
+## Contributing
 
-**Created By Rohit** <sup>&copy;</sup>
+Contributions are welcome! Please feel free to submit a Pull Request.
 
