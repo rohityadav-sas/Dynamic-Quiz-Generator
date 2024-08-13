@@ -27,7 +27,7 @@ A flexible and interactive quiz generator with customizable questions and answer
    git clone https://github.com/rohityadav-sas/Dynamic-Quiz-Generator
    ```
 
-2. Open index.html in your web browser.
+2. Open ```index.html``` in your web browser.
 
 ## Usage
 ### Computer Quiz
